@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>個人履歷</title>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $("#point1").click(function() {
+     $("#photo1").fadeIn();
+     $("#photo2").fadeOut();
+     $("#photo3").fadeOut();
+
+     $("#point1").css("background-color", "blue");
+     $("#point2").css("background-color", "white");
+     $("#point3").css("background-color", "white");
+    })
+
+    $("#point2").click(function() {
+     $("#photo2").fadeIn();
+     $("#photo1").fadeOut();
+     $("#photo3").fadeOut();
+
+     $("#point2").css("background-color", "blue");
+     $("#point1").css("background-color", "white");
+     $("#point3").css("background-color", "white");
+    })
+
+    $("#point3").click(function() {
+     $("#photo3").fadeIn();
+     $("#photo1").fadeOut();
+     $("#photo2").fadeOut();
+
+     $("#point3").css("background-color", "blue");
+     $("#point1").css("background-color", "white");
+     $("#point2").css("background-color", "white");
+    })
+    })
+    </script>
+  </head>
+  <body>
+    <div id="card">
+      <div id="photo">
+        <img src="my.jpg" width="238"height="244" id="photo1"/>
+        <img src="me.jpg" width="238"height="244" id="photo2"/>
+        <img src="mom.jpg" width="238"height="244"id="photo3"/>
+      <div class="point" id="point1"></div>
+      <div class="point" id="point2"></div>
+      <div class="point" id="point3"></div>
+      </div>
+      <div id="intro"> 
+        <h1>蘇宥瑜</h1>
+        <h2>11歲</h2>
+        <h2>南湖國小</h2>
+        <h2>台灣-台北</h2>
+        <h3>生無可言，無言以對</h3>
+      </div>
+      <div id="about">
+        <h4><i class="fas fa-smile"></i> 關於我</h4>
+        <p>
+          哈囉！我是蘇宥瑜，出生於99年12月26日，摩羯座。目前就讀南湖國小五年級。興趣是彈琴&騎腳踏車和煮飯。夢想是成為演員。
+        </p>
+        <h4><i class="fas fa-graduation-cap"></i> 學習經歷</h4>
+        <ul>
+          <li>南湖附幼</li>
+          <li>南湖國小</li>
+        </ul>
+        <h4><i class="fas fa-kiss-wink-heart"></i> 才藝</h4>
+        <ul>
+            <li>YAMAHA</li>
+          </ul> 
+        </div>
+        <div id="other">
+          <h4>個性</h4>
+          <div class="block">
+          <div class="left-text">內向</div>
+          <div class="right-text">外向</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar1"></div>
+          </div>
+          <div class="block">
+              <div class="left-text">理性</div>
+              <div class="right-text">感性</div>
+              <div class="gray-bar"></div>
+              <div class="green-bar" id="green-bar2"></div>
+              </div>
+              <div class="block">
+                  <div class="left-text">謹慎</div>
+                  <div class="right-text">冒險</div>
+                  <div class="gray-bar"></div>
+                  <div class="green-bar" id="green-bar3"></div>
+                  </div>
+                  <div class="block">
+                      <div class="left-text">思考</div>
+                      <div class="right-text">行動</div>
+                      <div class="gray-bar"></div>
+                      <div class="green-bar" id="green-bar4"></div>
+                      </div>
+                        
+          <h4>技能</h4>
+          <div class="block">
+            <div class="left-text">鋼琴</div>
+            <div class="gray-bar"></div>
+            <div class="green-bar" id="green-bar5"></div>
+            </div>
+            <div class="block">
+              <div class="left-text">畫畫</div>
+              <div class="gray-bar"></div>
+              <div class="green-bar" id="green-bar6"></div>
+              </div>
+              <div class="block">
+                <div class="left-text">空手道</div>
+                <div class="gray-bar"></div>
+                <div class="green-bar" id="green-bar7"></div>
+                </div>
+          </div>
+      
+      </body>
+</html>

@@ -1,0 +1,180 @@
+body {
+  background-color: blue;
+}
+#card {
+  width: 744px;
+  height: 528px;
+  background-color: red;
+  box-shadow: 5px 10px 20px -10px rgb(180, 0, 0);
+
+  position: relative;
+  top: 24px;
+  left: 24px;
+}
+
+#photo {
+  width: 238px;
+  height: 244px;
+  background-color: rgb(251, 124, 255);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#photo2 {
+  display: none;
+}
+
+#photo3 {
+  display: none;
+}
+
+.point {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background: white;
+  position: absolute;
+  top: 220px;
+}
+
+#point1 {
+  left: 87px;
+  background-color: blue;
+}
+
+#point2 {
+  left: 113px;
+}
+
+#point3 {
+  left: 139px;
+}
+
+#intro {
+  width: 238px;
+  height: 284px;
+  background-color: pink;
+  color: blue;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  box-sizing: border-box;
+  padding: 12px 24px 12px 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 24px;
+}
+#about {
+  width: 320px;
+  height: 528px;
+  background-color: purple;
+
+  position: absolute;
+  left: 238px;
+  top: 0;
+
+  box-sizing: border-box;
+  padding: 12px 24px 12px 24px;
+}
+
+h4 {
+  color: yellow;
+}
+p {
+  color: white;
+}
+ul {
+  color: white;
+}
+#other {
+  width: 186px;
+  height: 528px;
+  background-color: red;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.block {
+  width: 138px;
+  height: 32px;
+
+  position: relative;
+}
+
+.left-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.right-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.gray-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 138px;
+  height: 12px;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+
+.green-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 12px;
+  background-color: lightgreen;
+  border-radius: 6px;
+}
+
+#green-bar1 {
+  left: 52px;
+}
+
+#green-bar2 {
+  left: 45px;
+}
+
+#green-bar3 {
+  left: 60px;
+}
+
+#green-bar4 {
+  left: 60px;
+}
+
+#green-bar5 {
+  width: 100px;
+}
+
+#green-bar6 {
+  width: 80px;
+}
+
+#green-bar7 {
+  width: 30px;
+}
